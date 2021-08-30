@@ -14,11 +14,15 @@ The purpose of this project was to conduct a series of statistical analyses on d
 
 ### Summary Statistics on Suspension Coils
 
-**Manufacturing lots in total**
+#### Manufacturing lots in total**
+
+
 ![](Resources/total_summary.png)
 
 
-**Each manufacturing lot individually**
+#### Each manufacturing lot individually**
+
+
 ![](Resources/lot_summary.png)
 
 Using the 'Manufacturing lots in total' and 'Each manufacturing lot individually' dataframes shown above, we can answer the following question:
