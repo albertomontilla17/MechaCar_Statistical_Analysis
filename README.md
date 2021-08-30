@@ -5,7 +5,7 @@ The purpose of this project was to conduct a series of statistical analyses on d
 ## Results
 ### Linear Regression to Predict MPG
 
-<p align="center"><img src="Resources/deliverable1.png"></p>
+![](Resources/deliverable1.png)
 
 - The variables that provided a non-random amount of variance to the mpg values in the dataset are the `vehicle length` and `ground clearance` (as well as the intercept).
 - The slope of the linear model is not considered to be zero because the p-value is less than 0.05 (5.35e-11), which is statistically significant. Therefore, we have sufficient evidence to reject the null hypothesis.
@@ -15,11 +15,11 @@ The purpose of this project was to conduct a series of statistical analyses on d
 ### Summary Statistics on Suspension Coils
 
 **Manufacturing lots in total**
-<img src="Resources/total_summary.png" width="425"></p>
+![](Resources/total_summary.png)
 
 
 **Each manufacturing lot individually**
-<img src="Resources/lot_summary.png" width="425"></p>
+![](Resources/lot_summary.png)
 
 Using the 'Manufacturing lots in total' and 'Each manufacturing lot individually' dataframes shown above, we can answer the following question:
 
@@ -38,16 +38,16 @@ Based on the summary output, we can see that the MechaCar suspension coils do no
 
 - Lot1: The mean is 1500.018 PSI, with a p-value of 0.9048. The p-value is much higher than the 0.05 statistical significance level and the PSI is therefore, found to be **not statistically different** from the population mean. We can conclude that we failed to reject the null hypothesis.<br>
 
-<img src="Resources/lot_ttest1.png"></p>
+![](Resources/lot_ttest1.png)
 
 - Lot2: The mean is 1499.571 PSI, with a p-value of 0.3451. The p-value is much higher than the 0.05 statistical significance level and the PSI is therefore, found to be **not statistically different** from the population mean. We can conclude that we failed to reject the null hypothesis.<br>
 
-<img src="Resources/lot_ttest2.png"></p>
+![](Resources/lot_ttest2.png)
 
 - Lot 3: The mean is 1499.004 PSI, with a p-value of 0.637. The p-value is much higher than the 0.05 statistical significance level and the PSI is therefore, found to be **not statistically different** from the population mean. We can conclude that we failed to reject the null hypothesis.
 <br>
 
-<img src="Resources/lot_ttest3.png"></p>
+![](Resources/lot_ttest3.png)
 
 ## Study Design: MechaCar vs Competition
 - Cost, city or highway fuel efficiency, horse power are the main three factors would be of interest to a consumer. In order to compare the MechaCar vehicles with other competitions, I would use cost, city or highway fuel efficiency, horse power to perform analysis between MechaCar vs Competitions. 
