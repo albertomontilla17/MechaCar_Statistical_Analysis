@@ -14,13 +14,13 @@ The purpose of this project was to conduct a series of statistical analyses on d
 
 ### Summary Statistics on Suspension Coils
 
-#### Manufacturing lots in total**
+#### Manufacturing lots in total
 
 
 ![](Resources/total_summary.png)
 
 
-#### Each manufacturing lot individually**
+#### Each manufacturing lot individually
 
 
 ![](Resources/lot_summary.png)
@@ -34,11 +34,12 @@ Based on the summary output, we can see that the MechaCar suspension coils do no
 
 
 ### T-Tests on Suspension Coils
-**Across all manufacturing lots**
+
+#### Across all manufacturing lots
 
 - According to the results of the t-test on the suspension coils, the mean PSI across all manufacturing lots is 1499.531 PSI, with a p-value of 0.5117. The p-value is much higher than the 0.05 statistical significance level and the PSI is therefore, found to be **not statistically different** from the population mean of 1,500 PSI. We can conclude that we failed to reject the null hypothesis.<br>
 
-**Each manufacturing lot individually**
+#### Each manufacturing lot individually
 
 - Lot1: The mean is 1500.018 PSI, with a p-value of 0.9048. The p-value is much higher than the 0.05 statistical significance level and the PSI is therefore, found to be **not statistically different** from the population mean. We can conclude that we failed to reject the null hypothesis.<br>
 
